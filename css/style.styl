@@ -1,0 +1,120 @@
+
+@import "normalize.styl"
+@import "fonts.styl"
+
+grey_drk = #333333
+grey_lgt = #818181
+purple   = #BD2558
+
+a
+	text-decoration none 
+
+body
+	font-size 16px
+	font-family 'Varela Round', sans-serif
+
+.relative
+	position relative
+
+figure
+	margin 0
+
+.btn-menu
+	position absolute
+	top 50%
+	margin-top -10px
+	left .5em
+	color grey_drk
+.container
+	padding 1.4em
+	font-size 0 
+	text-align center
+.padding
+	padding 1em
+.padding-tb
+	padding 1em 0
+.action
+	color white
+	margin-right 8px
+	font-size 1em
+	&:last-child
+		margin-right 0
+	&.gray 
+		color grey_drk
+		font-size 1.2em
+.actions
+	position absolute
+	bottom 5px
+	left 0
+	right 0	
+	background grey_drk
+	opacity 0.7
+	width auto
+.bdr-btm
+	border-bottom 1px solid grey_lgt
+.name
+	color grey_drk
+.menu
+	display none		
+.author
+	color grey_lgt
+.ctr-block
+	margin 0 auto
+.ctr-text
+	text-align center
+.rgt-text
+	text-align right
+.progress
+	margin 1em 0
+	.total
+		height 5px
+		background grey_lgt
+		width 75%	
+		border-radius 5px
+		margin 0 auto
+	.state
+		height 5px
+		background purple
+		width 35%
+		border-radius 5px	
+	.circle
+		background grey_drk
+		width 10px
+		height 10px
+		border-radius 50%
+		position absolute
+		left 35%
+		top -2px
+		cursor pointer
+	.min 
+	.max
+		font-size .75em
+		position absolute
+		top -5px
+	.min 
+		left 0
+	.max
+		right 0
+.header
+	height 3.5em
+	.title		
+		font-size 1.1em
+		text-align center
+		marigin 0
+		line-height 3.5em
+.song
+	width 8rem
+	display inline-block
+	font-size 1rem
+	margin-right 1em
+	text-align left
+	&:nth-child(even)
+		margin .5em 0
+
+.playing
+	&.small
+		width 20em
+
+
+@media screen and (min-width: 480px)
+
